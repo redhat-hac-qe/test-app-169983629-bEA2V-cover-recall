@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-basic-169983629
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/hacdev/fbxzowfx-tenant/test-app-169983629/python-basic-169983629@sha256:9602381d21ae7ca50ccf5337ef78fb321a8bdadf3c07536185aa85c094d66602
         name: my-python
         ports:
         - containerPort: 8081
